@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Sep 12 17:11:50 2025
+# Process ID: 22104
+# Current directory: D:/GitHub_FPGA/AD7606/Parallel/Read_AD7606_Parallel_XC7A15T/Read_AD7606_Parallel_XC7A15T.runs/synth_1
+# Command line: vivado.exe -log Module_top_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Module_top_wrapper.tcl
+# Log file: D:/GitHub_FPGA/AD7606/Parallel/Read_AD7606_Parallel_XC7A15T/Read_AD7606_Parallel_XC7A15T.runs/synth_1/Module_top_wrapper.vds
+# Journal file: D:/GitHub_FPGA/AD7606/Parallel/Read_AD7606_Parallel_XC7A15T/Read_AD7606_Parallel_XC7A15T.runs/synth_1\vivado.jou
+# Running On        :DESKTOP-A02I2QT
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :Intel(R) Core(TM) i9-14900K
+# CPU Frequency     :3187 MHz
+# CPU Physical cores:24
+# CPU Logical cores :32
+# Host memory       :34062 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36210 MB
+# Available Virtual :6684 MB
+#-----------------------------------------------------------
+source Module_top_wrapper.tcl -notrace
