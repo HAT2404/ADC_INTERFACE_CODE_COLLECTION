@@ -45,8 +45,8 @@ module Module_read_par_ad7606(
      output reg [15:0] data_ch7, 
      output reg data_valid
     );
-    
-    // thuc hien doc theo kieu serial byte
+
+     
      // TAO RESET CHO ADC < THOI GIAN RESET + T7(25NS)////////////////////////////////////////////////
     // tao thoi gian reset = 100ns (50ns)
     reg enable_start_reset = 1; 
