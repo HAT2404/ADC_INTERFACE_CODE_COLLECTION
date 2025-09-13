@@ -162,7 +162,7 @@ module Module_read_par_ad7606(
         else begin prev_busy <= busy; end 
   end 
   
-  // thuc hien tao tin hieu conv theo canh xuong cua busy
+  // thuc hien tao tin hieu cs, rd theo canh xuong cua busy
   //reg flags_enable_rd;
   reg [4:0] counter_rd; 
   reg [7:0] counter_id_channel;
