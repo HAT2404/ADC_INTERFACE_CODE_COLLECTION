@@ -45,9 +45,8 @@ module Module_read_par_ad7606(
      output reg [15:0] data_ch7, 
      output reg data_valid
     );
-    
-    // thuc hien doc theo kieu serial byte
-     // TAO RESET CHO ADC < THOI GIAN RESET + T7(25NS)////////////////////////////////////////////////
+
+    // TAO RESET CHO ADC > THOI GIAN RESET + T7(25NS)////////////////////////////////////////////////
     // tao thoi gian reset = 100ns (50ns)
     reg enable_start_reset = 1; 
     reg reset_finish = 0 ;  // thoi diem ket thuc reset + 50ns (thoi gian cong them la t7)
@@ -162,7 +161,7 @@ module Module_read_par_ad7606(
         else begin prev_busy <= busy; end 
   end 
   
-  // thuc hien tao tin hieu conv theo canh xuong cua busy
+  // thuc hien tao tin hieu cs, rd theo canh xuong cua busy
   //reg flags_enable_rd;
   reg [4:0] counter_rd; 
   reg [7:0] counter_id_channel;
