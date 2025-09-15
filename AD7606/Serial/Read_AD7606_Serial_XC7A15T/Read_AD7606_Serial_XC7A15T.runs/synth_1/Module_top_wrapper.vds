@@ -1,0 +1,257 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Sep 15 14:47:53 2025
+# Process ID: 18192
+# Current directory: C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.runs/synth_1
+# Command line: vivado.exe -log Module_top_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Module_top_wrapper.tcl
+# Log file: C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.runs/synth_1/Module_top_wrapper.vds
+# Journal file: C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.runs/synth_1\vivado.jou
+# Running On        :DESKTOP-A02I2QT
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :Intel(R) Core(TM) i9-14900K
+# CPU Frequency     :3187 MHz
+# CPU Physical cores:24
+# CPU Logical cores :32
+# Host memory       :34062 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36210 MB
+# Available Virtual :11555 MB
+#-----------------------------------------------------------
+source Module_top_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 587.305 ; gain = 202.742
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.srcs/utils_1/imports/synth_1/Module_top_wrapper.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.srcs/utils_1/imports/synth_1/Module_top_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Module_top_wrapper -part xc7a15tcsg325-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a15t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a15t'
+INFO: [Device 21-403] Loading part xc7a15tcsg325-2
+INFO: [Device 21-9227] Part: xc7a15tcsg325-2 does not have CEAM library.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4944
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1473.785 ; gain = 449.977
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Module_top_wrapper' [C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.gen/sources_1/bd/Module_top/hdl/Module_top_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Module_top' [c:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.gen/sources_1/bd/Module_top/synth/Module_top.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Module_top_Module_read_ser_ad76_0_0' [C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.runs/synth_1/.Xil/Vivado-18192-DESKTOP-A02I2QT/realtime/Module_top_Module_read_ser_ad76_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Module_top_Module_read_ser_ad76_0_0' (0#1) [C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.runs/synth_1/.Xil/Vivado-18192-DESKTOP-A02I2QT/realtime/Module_top_Module_read_ser_ad76_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Module_top_clk_wiz_0_0' [C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.runs/synth_1/.Xil/Vivado-18192-DESKTOP-A02I2QT/realtime/Module_top_clk_wiz_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Module_top_clk_wiz_0_0' (0#1) [C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.runs/synth_1/.Xil/Vivado-18192-DESKTOP-A02I2QT/realtime/Module_top_clk_wiz_0_0_stub.v:6]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [c:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.gen/sources_1/bd/Module_top/synth/Module_top.v:105]
+INFO: [Synth 8-6157] synthesizing module 'Module_top_ila_0_0' [C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.runs/synth_1/.Xil/Vivado-18192-DESKTOP-A02I2QT/realtime/Module_top_ila_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Module_top_ila_0_0' (0#1) [C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.runs/synth_1/.Xil/Vivado-18192-DESKTOP-A02I2QT/realtime/Module_top_ila_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Module_top' (0#1) [c:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.gen/sources_1/bd/Module_top/synth/Module_top.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'Module_top_wrapper' (0#1) [C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.gen/sources_1/bd/Module_top/hdl/Module_top_wrapper.v:13]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Module_read_ser_ad76_0'. This will prevent further optimization [c:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.gen/sources_1/bd/Module_top/synth/Module_top.v:79]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Module_top_i'. This will prevent further optimization [C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.gen/sources_1/bd/Module_top/hdl/Module_top_wrapper.v:55]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_0'. This will prevent further optimization [c:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.gen/sources_1/bd/Module_top/synth/Module_top.v:105]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1586.590 ; gain = 562.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1586.590 ; gain = 562.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1586.590 ; gain = 562.781
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1586.590 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.gen/sources_1/bd/Module_top/ip/Module_top_clk_wiz_0_0/Module_top_clk_wiz_0_0/Module_top_clk_wiz_0_0_in_context.xdc] for cell 'Module_top_i/clk_wiz_0'
+Finished Parsing XDC File [c:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.gen/sources_1/bd/Module_top/ip/Module_top_clk_wiz_0_0/Module_top_clk_wiz_0_0/Module_top_clk_wiz_0_0_in_context.xdc] for cell 'Module_top_i/clk_wiz_0'
+Parsing XDC File [c:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.gen/sources_1/bd/Module_top/ip/Module_top_Module_read_ser_ad76_0_0/Module_top_Module_read_ser_ad76_0_0/Module_top_Module_read_ser_ad76_0_0_in_context.xdc] for cell 'Module_top_i/Module_read_ser_ad76_0'
+Finished Parsing XDC File [c:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.gen/sources_1/bd/Module_top/ip/Module_top_Module_read_ser_ad76_0_0/Module_top_Module_read_ser_ad76_0_0/Module_top_Module_read_ser_ad76_0_0_in_context.xdc] for cell 'Module_top_i/Module_read_ser_ad76_0'
+Parsing XDC File [c:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.gen/sources_1/bd/Module_top/ip/Module_top_ila_0_0/Module_top_ila_0_0/Module_top_ila_0_0_in_context.xdc] for cell 'Module_top_i/ila_0'
+Finished Parsing XDC File [c:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.gen/sources_1/bd/Module_top/ip/Module_top_ila_0_0/Module_top_ila_0_0/Module_top_ila_0_0_in_context.xdc] for cell 'Module_top_i/ila_0'
+Parsing XDC File [C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.srcs/constrs_1/new/pin_name.xdc]
+Finished Parsing XDC File [C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.srcs/constrs_1/new/pin_name.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.srcs/constrs_1/new/pin_name.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Module_top_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Module_top_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1595.223 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1595.223 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1595.223 ; gain = 571.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a15tcsg325-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1595.223 ; gain = 571.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_in. (constraint file  c:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.gen/sources_1/bd/Module_top/ip/Module_top_clk_wiz_0_0/Module_top_clk_wiz_0_0/Module_top_clk_wiz_0_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_in. (constraint file  c:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.gen/sources_1/bd/Module_top/ip/Module_top_clk_wiz_0_0/Module_top_clk_wiz_0_0/Module_top_clk_wiz_0_0_in_context.xdc, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for Module_top_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Module_top_i/clk_wiz_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Module_top_i/Module_read_ser_ad76_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Module_top_i/ila_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1595.223 ; gain = 571.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1595.223 ; gain = 571.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 45 (col length:60)
+BRAMs: 50 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1595.223 ; gain = 571.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1595.223 ; gain = 571.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1595.223 ; gain = 571.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1595.223 ; gain = 571.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1595.223 ; gain = 571.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1595.223 ; gain = 571.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1595.223 ; gain = 571.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1595.223 ; gain = 571.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1595.223 ; gain = 571.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1595.223 ; gain = 571.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------------------+----------+
+|      |BlackBox name                       |Instances |
++------+------------------------------------+----------+
+|1     |Module_top_Module_read_ser_ad76_0_0 |         1|
+|2     |Module_top_clk_wiz_0_0              |         1|
+|3     |Module_top_ila_0_0                  |         1|
++------+------------------------------------+----------+
+
+Report Cell Usage: 
++------+----------------------------------+------+
+|      |Cell                              |Count |
++------+----------------------------------+------+
+|1     |Module_top_Module_read_ser_ad76_0 |     1|
+|2     |Module_top_clk_wiz_0              |     1|
+|3     |Module_top_ila_0                  |     1|
+|4     |IBUF                              |     5|
+|5     |OBUF                              |     7|
++------+----------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1595.223 ; gain = 571.414
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1595.223 ; gain = 562.781
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1595.223 ; gain = 571.414
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1595.223 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1595.223 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: a1f068ea
+INFO: [Common 17-83] Releasing license: Synthesis
+36 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1595.223 ; gain = 963.875
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1595.223 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.runs/synth_1/Module_top_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file Module_top_wrapper_utilization_synth.rpt -pb Module_top_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 15 14:48:20 2025...

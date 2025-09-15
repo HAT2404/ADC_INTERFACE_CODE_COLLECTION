@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/HBQ/Downloads/Read_AD7606_Serial_XC7A15T/Read_AD7606_Serial_XC7A15T.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0"></ZoomStartTime>
+      <ZoomEndTime time="1,218"></ZoomEndTime>
+      <Cursor1Time time="0"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="277"></NameColumnWidth>
+      <ValueColumnWidth column_width="70"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="Module_top_i/Module_read_ser_ad76_0_convst_a" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Module_top_i/Module_read_ser_ad76_0_convst_a</obj_property>
+      <obj_property name="ObjectShortName">Module_read_ser_ad76_0_convst_a</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Module_top_i/Module_read_ser_ad76_0_convst_b" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Module_top_i/Module_read_ser_ad76_0_convst_b</obj_property>
+      <obj_property name="ObjectShortName">Module_read_ser_ad76_0_convst_b</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Module_top_i/busy_0_1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Module_top_i/busy_0_1</obj_property>
+      <obj_property name="ObjectShortName">busy_0_1</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Module_top_i/Module_read_ser_ad76_0_cs" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Module_top_i/Module_read_ser_ad76_0_cs</obj_property>
+      <obj_property name="ObjectShortName">Module_read_ser_ad76_0_cs</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Module_top_i/Module_read_ser_ad76_0_rd" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Module_top_i/Module_read_ser_ad76_0_rd</obj_property>
+      <obj_property name="ObjectShortName">Module_read_ser_ad76_0_rd</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Module_top_i/douta_0_1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Module_top_i/douta_0_1</obj_property>
+      <obj_property name="ObjectShortName">douta_0_1</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Module_top_i/doutb_0_1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Module_top_i/doutb_0_1</obj_property>
+      <obj_property name="ObjectShortName">doutb_0_1</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Module_top_i/Module_read_ser_ad76_0_data_ch0" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Module_top_i/Module_read_ser_ad76_0_data_ch0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Module_read_ser_ad76_0_data_ch0[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Module_top_i/Module_read_ser_ad76_0_data_ch1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Module_top_i/Module_read_ser_ad76_0_data_ch1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Module_read_ser_ad76_0_data_ch1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Module_top_i/Module_read_ser_ad76_0_data_ch2" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Module_top_i/Module_read_ser_ad76_0_data_ch2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Module_read_ser_ad76_0_data_ch2[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Module_top_i/Module_read_ser_ad76_0_data_ch3" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Module_top_i/Module_read_ser_ad76_0_data_ch3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Module_read_ser_ad76_0_data_ch3[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Module_top_i/Module_read_ser_ad76_0_data_ch4" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Module_top_i/Module_read_ser_ad76_0_data_ch4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Module_read_ser_ad76_0_data_ch4[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Module_top_i/Module_read_ser_ad76_0_data_ch5" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Module_top_i/Module_read_ser_ad76_0_data_ch5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Module_read_ser_ad76_0_data_ch5[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Module_top_i/Module_read_ser_ad76_0_data_ch6" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Module_top_i/Module_read_ser_ad76_0_data_ch6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Module_read_ser_ad76_0_data_ch6[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Module_top_i/Module_read_ser_ad76_0_data_ch7" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Module_top_i/Module_read_ser_ad76_0_data_ch7[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Module_read_ser_ad76_0_data_ch7[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Module_top_i/Module_read_ser_ad76_0_data_valid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Module_top_i/Module_read_ser_ad76_0_data_valid</obj_property>
+      <obj_property name="ObjectShortName">Module_read_ser_ad76_0_data_valid</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>
