@@ -46,7 +46,7 @@ module Module_read_par_ad7606(
      output reg data_valid
     );
 
-    // TAO RESET CHO ADC < THOI GIAN RESET + T7(25NS)////////////////////////////////////////////////
+    // TAO RESET CHO ADC > THOI GIAN RESET + T7(25NS)////////////////////////////////////////////////
     // tao thoi gian reset = 100ns (50ns)
     reg enable_start_reset = 1; 
     reg reset_finish = 0 ;  // thoi diem ket thuc reset + 50ns (thoi gian cong them la t7)
